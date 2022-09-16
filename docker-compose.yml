@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  logviewer:
+    image: htetlinmaung/logviewer
+    build: .
+    ports:
+      - "9998:3000"
+    
